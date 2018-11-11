@@ -1,9 +1,9 @@
 <?php
 
-$dbName = "customercredentials";
-$mysqlUsername = "root";
-$mysqlPassword = "";
-$serverName = "localhost";
+$dbName = "ZonalDesk";
+$mysqlUsername = "admin";
+$mysqlPassword = "LXCEACZADQWPUTXZ";
+$serverName = "sl-eu-gb-p00.dblayer.com";
 
 $connect = mysqli_connect($serverName,$mysqlUsername,$mysqlPassword,$dbName);
 
