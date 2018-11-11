@@ -1,0 +1,6 @@
+applications:
+- name: ZonalDeskScripts
+  memory: 128M
+  domain: eu-gb.mybluemix.net
+  services:
+  - mysql
