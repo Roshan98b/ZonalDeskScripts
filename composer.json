@@ -1,6 +1,7 @@
 {
     "require": {
         "php": "7.2.*",
-        "ext-mysqli": "*"
+        "ext-mysqli": "*",
+        "phpmailer/phpmailer": "^6.0"
     }
 }
