@@ -9,6 +9,7 @@ $mail = new PHPMailer;
 
 $subject  = 'OTP for ZonalDesk Registration';
 $message  = "Your OTP for registration is:- $OTP <br>Please do not share it with anyone.<br>OTP will expire in 30mins.<br> <br>Please do not reply to this email as it is automatically generated.";
+
 $mail->From = "roshan98b@gmail.com";
 $mail->FromName = "Roshan Badrinath";
 
@@ -29,5 +30,6 @@ else
 {
     echo "Message has been sent successfully";
 }
+
 
 ?>
